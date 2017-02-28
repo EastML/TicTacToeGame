@@ -1,0 +1,98 @@
+body {
+  background-color: #222;
+}
+
+#title {
+  color: #DDD;
+  font-size: 2em;
+  padding: 2% 0 2% 0;
+}
+
+#start {
+  width: 375px;
+  height: 275px;
+  background-color: #DDD;
+  margin: 0 auto;
+}
+
+#start > h1 {
+  font-size: 3em;
+  padding-top: 45px;
+}
+
+#choice {
+  background-color: #DDD;
+  display: none;
+  
+}
+
+#choice > div {
+  height: 75px;
+  width: 75px;
+  font-size: 1.5em;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 20px;
+  color: #DDD;
+}
+
+#p1 {
+  background-color: #d9534f;
+  margin-right: 15px;
+}
+
+#p2 {
+  background-color: #428cba;
+  margin-left: 15px;
+}
+
+h2 {
+  margin: 15px;
+}
+
+#play {
+  margin-top: 80px;
+}
+
+#play > div {
+  height: 50px;
+  width: 125px;
+  display: inline-block;
+  color: #DDD;
+  font-size: 1.5rem;
+  padding-top: 7px;
+}
+
+#yes {
+  background-color: #5cb85c;
+  margin-right: 15px;
+}
+
+#no {
+  background-color: #d9534f;
+  margin-left: 15px;
+}
+
+#board {
+  width: 375px;
+  height: 375px;
+  margin: 0 auto;
+  display: none;
+}
+
+.square {
+  border: solid #222 5px;
+  height: 125px;
+  width: 130px;
+  font-size: 4em;
+  background-color: #DDD;
+  color: #DDD;
+}
+
+.x {
+  background-color: #d9534f;
+}
+
+.o {
+  background-color: #428cba;
+}
